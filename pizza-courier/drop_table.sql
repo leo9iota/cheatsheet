@@ -1,0 +1,3 @@
+DROP DATABASE IF EXISTS pizza_express;
+DROP DATABASE IF EXISTS pizza_express_v2;
+DROP DATABASE IF EXISTS pizza_courier;
