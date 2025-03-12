@@ -2,16 +2,13 @@ DROP DATABASE IF EXISTS pizza_express;
 CREATE DATABASE pizza_express;
 USE pizza_express;
 
-CREATE TABLE category
-(
+CREATE TABLE category (
     category_id INT AUTO_INCREMENT PRIMARY KEY,
     name        VARCHAR(100) NOT NULL UNIQUE,
     description TEXT
-
 );
 
-CREATE TABLE product
-(
+CREATE TABLE product (
     product_id     INT AUTO_INCREMENT PRIMARY KEY,
     name           VARCHAR(100)   NOT NULL,
     price          DECIMAL(10, 2) NOT NULL,
@@ -21,8 +18,7 @@ CREATE TABLE product
     FOREIGN KEY (fk_category_id) REFERENCES category (category_id) ON DELETE CASCADE
 );
 
-CREATE TABLE customer
-(
+CREATE TABLE customer (
     customer_id INT AUTO_INCREMENT PRIMARY KEY,
     first_name  VARCHAR(50)  NOT NULL,
     last_name   VARCHAR(50)  NOT NULL,
@@ -31,8 +27,7 @@ CREATE TABLE customer
     address     TEXT
 );
 
-CREATE TABLE pizza_courier
-(
+CREATE TABLE pizza_courier (
     pizza_courier_id INT AUTO_INCREMENT PRIMARY KEY,
     first_name       VARCHAR(50)                            NOT NULL,
     last_name        VARCHAR(50)                            NOT NULL,
@@ -41,8 +36,7 @@ CREATE TABLE pizza_courier
     status           ENUM ('available', 'busy', 'off-duty') NOT NULL DEFAULT 'available'
 );
 
-CREATE TABLE customer_order
-(
+CREATE TABLE customer_order (
     customer_order_id   INT AUTO_INCREMENT PRIMARY KEY,
     fk_customer_id      INT                           NOT NULL,
     fk_pizza_courier_id INT                           NULL,
@@ -54,8 +48,7 @@ CREATE TABLE customer_order
     FOREIGN KEY (fk_pizza_courier_id) REFERENCES pizza_courier (pizza_courier_id) ON DELETE SET NULL
 );
 
-CREATE TABLE product_customer_order
-(
+CREATE TABLE product_customer_order (
     fk_product_id        INT            NOT NULL,
     fk_customer_order_id INT            NOT NULL,
     quantity             INT            NOT NULL DEFAULT 1,
