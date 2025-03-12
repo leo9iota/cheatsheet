@@ -17,6 +17,7 @@ CREATE TABLE product
     price          DECIMAL(10, 2) NOT NULL,
     stock_quantity INT            NOT NULL DEFAULT 0,
     fk_category_id INT            NOT NULL,
+
     FOREIGN KEY (fk_category_id) REFERENCES category (category_id) ON DELETE CASCADE
 );
 
@@ -48,6 +49,7 @@ CREATE TABLE customer_order
     order_date          DATETIME                               DEFAULT CURRENT_TIMESTAMP,
     total_price         DECIMAL(10, 2)                NOT NULL DEFAULT 0.00,
     order_status        ENUM ('pending', 'delivered') NOT NULL DEFAULT 'pending',
+
     FOREIGN KEY (fk_customer_id) REFERENCES customer (customer_id) ON DELETE CASCADE,
     FOREIGN KEY (fk_pizza_courier_id) REFERENCES pizza_courier (pizza_courier_id) ON DELETE SET NULL
 );
@@ -58,6 +60,7 @@ CREATE TABLE product_customer_order
     fk_customer_order_id INT            NOT NULL,
     quantity             INT            NOT NULL DEFAULT 1,
     price_at_order       DECIMAL(10, 2) NOT NULL,
+
     PRIMARY KEY (fk_product_id, fk_customer_order_id),
     FOREIGN KEY (fk_product_id) REFERENCES product (product_id) ON DELETE CASCADE,
     FOREIGN KEY (fk_customer_order_id) REFERENCES customer_order (customer_order_id) ON DELETE CASCADE
