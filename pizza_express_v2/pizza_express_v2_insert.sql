@@ -1,4 +1,4 @@
-USE pizza_express_solution;
+USE pizza_express_v2;
 
 -- Ensure transactions are explicitly managed
 SET AUTOCOMMIT = 0;
@@ -35,7 +35,7 @@ INSERT INTO category (category)
 VALUES ('Pizza'), ('Salate'), ('Getränke'), ('Pasta'), ('Dessert');
 
 -- Insert products
-INSERT INTO product (fk_category_id, name, description, price)
+INSERT INTO product (fk_category_id, product_name, description, price)
 VALUES
     (1, 'Margherita', 'Tomaten, Mozzarella', 17.00),
     (1, 'Prosciutto', 'Tomaten, Schinken, Mozzarella', 18.00),

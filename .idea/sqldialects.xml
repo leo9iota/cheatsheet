@@ -4,6 +4,8 @@
     <file url="file://$PROJECT_DIR$/pizza_express_v1/pizza_express_v1_drop.sql" dialect="MariaDB" />
     <file url="file://$PROJECT_DIR$/pizza_express_v2/pizza_express_v2_alter.sql" dialect="MariaDB" />
     <file url="file://$PROJECT_DIR$/pizza_express_v2/pizza_express_v2_create.sql" dialect="MariaDB" />
+    <file url="file://$PROJECT_DIR$/pizza_express_v2/pizza_express_v2_drop.sql" dialect="MariaDB" />
+    <file url="file://$PROJECT_DIR$/pizza_express_v2/pizza_express_v2_insert.sql" dialect="MariaDB" />
     <file url="PROJECT" dialect="MariaDB" />
   </component>
 </project>

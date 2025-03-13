@@ -1,3 +1,5 @@
+USE pizza_express_v1;
+
 -- Insert categories
 INSERT INTO category (name, description)
 VALUES ('Pizza', 'Delicious handmade pizzas with fresh ingredients'),
