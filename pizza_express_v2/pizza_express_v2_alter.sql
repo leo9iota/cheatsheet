@@ -25,11 +25,10 @@ ALTER TABLE customer
     DROP COLUMN mobile;
 
 -- 7. Drop the foreign key constraint for zip codes in the customer table
-SHOW CREATE TABLE customer; -- Find the actual FK constraint name first
 ALTER TABLE customer
     DROP FOREIGN KEY customer_ibfk_1;
 -- Replace with the actual constraint name
 
 -- 8. Re-add the foreign key constraint
 ALTER TABLE customer
-    ADD CONSTRAINT fk_customer_zip FOREIGN KEY (fk_zip_id) REFERENCES zip (id) ON DELETE CASCADE;
+    ADD CONSTRAINT fk_customer_zip FOREIGN KEY (fk_zip_id) REFERENCES zip (zip_id) ON DELETE CASCADE;
