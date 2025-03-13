@@ -1,6 +1,6 @@
-DROP DATABASE IF EXISTS pizza_express;
-CREATE DATABASE pizza_express;
-USE pizza_express;
+DROP DATABASE IF EXISTS pizza_express_v1;
+CREATE DATABASE pizza_express_v1;
+USE pizza_express_v1;
 
 CREATE TABLE category (
     category_id INT AUTO_INCREMENT PRIMARY KEY,
