@@ -1,4 +1,4 @@
-USE pizza_express;
+USE pizza_express_solution;
 
 -- Transaktion starten
 BEGIN;
