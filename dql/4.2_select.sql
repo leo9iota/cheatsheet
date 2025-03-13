@@ -1,32 +1,32 @@
--- We are working in the pizza_express_zli_example database
+-- Use the pizza_express_zli_example database
 USE pizza_express_zli_example;
 
--- 1) Berechnen Sie die Quadratwurzel aller Produktpreise
+-- 1) Calculate the square root of all product prices
 SELECT name,
        price,
        SQRT(price) AS sqrt_price
 FROM product;
 
--- 2) Geben Sie den Namen des Monats aus dem Datum der Bestellungen aus
+-- 2) Show the month name from the order date
 SELECT id,
        ordered_at,
        MONTHNAME(ordered_at) AS month_name
 FROM order_entry;
 
--- 3) Zählen Sie die Anzahl Buchstaben in den Vornamen der Kunden
+-- 3) Count the number of letters in the customers' first names
 SELECT firstname,
        LENGTH(firstname) AS firstname_length
 FROM customer;
 
--- 4) Listen Sie die Email-Adressen aller Kunden.
---    Teilen Sie die Adresse in zwei Spalten auf: Account und Domain
+-- 4) List all customers' email addresses.
+--    Split each address into two columns: account and domain
+-- 4) List all customers' email addresses.
 SELECT email,
        SUBSTRING_INDEX(email, '@', 1)  AS email_account,
        SUBSTRING_INDEX(email, '@', -1) AS email_domain
 FROM customer;
 
--- 5) Geben Sie den Vornamen und Nachnamen der Kunden in einer Spalte aus,
---    z.B. "Hans Muster: HM" (Anfangsbuchstaben)
+-- 5) Display the first and last name of the customers in one column, e.g. "Hans Muster: HM"
 SELECT CONCAT(
                firstname, ' ', lastname, ': ',
                UPPER(LEFT(firstname, 1)),
@@ -34,16 +34,17 @@ SELECT CONCAT(
        ) AS name_with_initials
 FROM customer;
 
--- 6) Berechnen Sie die 8% MwSt., die in den Preisen inbegriffen ist.
---    Option: Runden auf 5 Rappen (0.05)
---    Formel für den enthaltenen MwSt.-Betrag: price - (price / 1.08)
+-- 6) Calculate the 8% VAT that is included in the product prices.
+--    Optionally, round to the nearest 0.05
+--    The formula for the included VAT amount is: price - (price / 1.08)
+-- 6) Calculate the 8% VAT that is included in the product prices.
 SELECT name,
        price,
        (price - (price / 1.08))                     AS vat_included,
        ROUND((price - (price / 1.08)) * 20, 0) / 20 AS vat_included_rounded_5rp
 FROM product;
 
--- 7) Zeigen Sie den Mindest-, Höchst- und Durchschnittspreis aller Produkte
+-- 7) Show the minimum, maximum, and average price of all products
 SELECT MIN(price) AS min_price,
        MAX(price) AS max_price,
        AVG(price) AS avg_price
