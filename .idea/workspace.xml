@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="be692c59-277c-4a01-a0ae-af2db0279f55" name="Changes" comment="Update `4.1`">
+      <change afterPath="$PROJECT_DIR$/m106/block-7/7.1_group_by.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m106/block-7/7.2_join.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m106/block-7/7.3_outer_joins.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m106/block-7/7.4_subqueries.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m106/block-7/test.sql" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2uDQ7yhcxNuMthDaqTGRlioIC6E" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Database Script.sakila-data.sql.executor": "Run",
+    "RunOnceActivity.OpenDatabaseViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/Nine/Projects/zli-m106",
+    "settings.editor.selected.configurable": "preferences.keymap"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mariadb"
+    ],
+    "RunConfigurationTargetLRU": [
+      "cad83d55-df62-430d-b049-80ee38e29ff2/schema/\"sakila\""
+    ],
+    "com.intellij.ide.scratch.LRUPopupBuilder$1/": [
+      "MariaDB",
+      "PostgreSQL"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Nine\Projects\zli-m106" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Database Script.sakila-data.sql">
+    <configuration name="pizza_express_v2_alter.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/pizza_express_v2/pizza_express_v2_alter.sql" />
+      <script-mode>FILE</script-mode>
+      <data-source id="cad83d55-df62-430d-b049-80ee38e29ff2" namespace="schema/&quot;pizza_express_v2&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pizza_express_v2_create.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/pizza_express_v2/pizza_express_v2_create.sql" />
+      <script-mode>FILE</script-mode>
+      <method v="2" />
+    </configuration>
+    <configuration name="pizza_express_v2_drop.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/pizza_express_v2/pizza_express_v2_drop.sql" />
+      <script-mode>FILE</script-mode>
+      <method v="2" />
+    </configuration>
+    <configuration name="pizza_express_v2_insert.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/pizza_express_v2/pizza_express_v2_insert.sql" />
+      <script-mode>FILE</script-mode>
+      <method v="2" />
+    </configuration>
+    <configuration name="sakila-data.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/sakila/sakila-data.sql" />
+      <script-mode>FILE</script-mode>
+      <data-source id="cad83d55-df62-430d-b049-80ee38e29ff2" namespace="schema/&quot;sakila&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Database Script.sakila-data.sql" />
+        <item itemvalue="Database Script.pizza_express_v2_alter.sql" />
+        <item itemvalue="Database Script.pizza_express_v2_create.sql" />
+        <item itemvalue="Database Script.pizza_express_v2_insert.sql" />
+        <item itemvalue="Database Script.pizza_express_v2_drop.sql" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add ZLI example database" />
+    <MESSAGE value="Update formatting and change database name" />
+    <MESSAGE value="Add DQL exercises" />
+    <MESSAGE value="Update `4.1`" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update `4.1`" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
