@@ -5,11 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be692c59-277c-4a01-a0ae-af2db0279f55" name="Changes" comment="Update `4.1`">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/92afe143-68dc-44d4-9246-1fe3152606ce.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/92afe143-68dc-44d4-9246-1fe3152606ce.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m106/exam/exam_question_1.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m106/exam/exam_question_2.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m106/exam/exam_question_3.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m106/exam/exam_question_4.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m106/exam/exam_question_5.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m106/exam/exam_question_6.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m106/exam/exam_question_7.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m106/solutions/10.1_solution_example_exam.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/m106/block-8/8.1_complex_sql_queries.sql" beforeDir="false" afterPath="$PROJECT_DIR$/m106/block-8/8.1_complex_sql_queries.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/m106/solutions/5.2_solution_SQL-Statements.sql" beforeDir="false" afterPath="$PROJECT_DIR$/m106/solutions/5.2_solution_SQL-Statements.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,31 +34,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Database Script.sakila-data.sql.executor": "Run",
-    "RunOnceActivity.OpenDatabaseViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Nine/Projects/zli-m106",
-    "settings.editor.selected.configurable": "settings.sync"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Database Script.sakila-data.sql.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenDatabaseViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Nine/Projects/zli-m106&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mariadb"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mariadb&quot;
     ],
-    "RunConfigurationTargetLRU": [
-      "cad83d55-df62-430d-b049-80ee38e29ff2/schema/\"sakila\""
+    &quot;RunConfigurationTargetLRU&quot;: [
+      &quot;cad83d55-df62-430d-b049-80ee38e29ff2/schema/\&quot;sakila\&quot;&quot;
     ],
-    "com.intellij.ide.scratch.LRUPopupBuilder$1/": [
-      "MariaDB",
-      "PostgreSQL"
+    &quot;com.intellij.ide.scratch.LRUPopupBuilder$1/&quot;: [
+      &quot;MariaDB&quot;,
+      &quot;PostgreSQL&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Nine\Projects\zli-m106" />
