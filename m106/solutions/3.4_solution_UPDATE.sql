@@ -1,3 +1,5 @@
+USE pizza_express_solution;
+
 -- Ändern Sie den Namen eines Kunden
 UPDATE
     customer

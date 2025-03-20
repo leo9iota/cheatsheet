@@ -1,3 +1,5 @@
+USE sakila;
+
 -- Anzahl Datensätze in der Tabelle payment
 SELECT COUNT(*)
 FROM payment;

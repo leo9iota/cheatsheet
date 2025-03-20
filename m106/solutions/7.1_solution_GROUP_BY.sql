@@ -1,4 +1,4 @@
-USE pizza_express_zli_example;
+USE pizza_express_solution;
 
 -- Anzahl Produkte pro Produktkategorie
 SELECT fk_category_id,

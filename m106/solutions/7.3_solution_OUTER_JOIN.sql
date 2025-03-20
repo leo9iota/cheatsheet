@@ -1,4 +1,4 @@
-USE pizza_express_zli_example;
+USE pizza_express_solution;
 
 -- Liste aller Produkte mit Produktkategorien
 SELECT c.category,

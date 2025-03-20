@@ -12,8 +12,8 @@
       <schema-mapping>
         <introspection-scope>
           <node kind="schema">
-            <name qname="@" />
             <name qname="pizza_express_solution" />
+            <name qname="@" />
             <name qname="pizza_express_v1" />
             <name qname="pizza_express_v2" />
             <name qname="pizza_express_zli_example" />

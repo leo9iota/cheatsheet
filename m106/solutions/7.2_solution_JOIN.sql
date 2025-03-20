@@ -1,4 +1,4 @@
-USE pizza_express_zli_example;
+USE pizza_express_solution;
 
 -- Adressliste aller Kunden mit Postleitzahl und Ort
 SELECT firstname,
@@ -28,7 +28,7 @@ FROM zip z
          JOIN customer c ON c.fk_zip_id = z.id
          JOIN order_entry o ON o.fk_customer_id = c.id;
 
--- Alle Bestellungen mit Email des Kunden, Bestelldatum, Produktbezeichnung, Anzahl, Preis und Summe
+-- Alle Bestellungen mit E-Mail des Kunden, Bestelldatum, Produktbezeichnung, Anzahl, Preis und Summe
 SELECT c.email,
        o.ordered_at,
        p.name,

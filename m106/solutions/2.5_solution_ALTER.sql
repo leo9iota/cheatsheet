@@ -1,3 +1,5 @@
+USE pizza_express_solution;
+
 -- Sie wollen in der Kundentabelle auch die mobile Telefonnummer speichern. Fügen Sie eine entsprechende Spalte hinzu
 ALTER TABLE customer
     ADD mobile VARCHAR(255);

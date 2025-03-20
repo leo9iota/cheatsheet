@@ -1,3 +1,5 @@
+USE pizza_express_solution;
+
 -- Löschen Sie eine Bestellung
 DELETE
 FROM order_entry

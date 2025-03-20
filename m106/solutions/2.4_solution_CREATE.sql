@@ -1,6 +1,6 @@
-DROP DATABASE IF EXISTS pizza_express;
-CREATE DATABASE pizza_express;
-USE pizza_express;
+DROP DATABASE IF EXISTS pizza_express_solution;
+CREATE DATABASE pizza_express_solution;
+USE pizza_express_solution;
 
 CREATE TABLE zip (
     id   INT UNSIGNED         NOT NULL AUTO_INCREMENT,
@@ -22,7 +22,7 @@ CREATE TABLE customer (
     phone     VARCHAR(255),
 
     PRIMARY KEY (id),
-    FOREIGN KEY (fk_zip_id) REFERENCES zip (id) -- ON UPDATE CASCADE ON DELETE CASCADE
+    FOREIGN KEY (fk_zip_id) REFERENCES zip (id) ON UPDATE CASCADE ON DELETE CASCADE
 );
 
 CREATE TABLE category (
@@ -39,7 +39,7 @@ CREATE TABLE product (
     price          DECIMAL(6, 2) NOT NULL,
 
     PRIMARY KEY (id),
-    FOREIGN KEY (fk_category_id) REFERENCES category (id) -- ON UPDATE CASCADE ON DELETE CASCADE
+    FOREIGN KEY (fk_category_id) REFERENCES category (id) ON UPDATE CASCADE ON DELETE CASCADE
 );
 
 CREATE TABLE order_entry (
@@ -49,7 +49,7 @@ CREATE TABLE order_entry (
     delivered_at   DATETIME     NULL,
 
     PRIMARY KEY (id),
-    FOREIGN KEY (fk_customer_id) REFERENCES customer (id) -- ON UPDATE CASCADE ON DELETE CASCADE
+    FOREIGN KEY (fk_customer_id) REFERENCES customer (id) ON UPDATE CASCADE ON DELETE CASCADE
 );
 
 CREATE TABLE product_order_entry (
@@ -60,6 +60,6 @@ CREATE TABLE product_order_entry (
     price             DECIMAL(6, 2) NULL,
 
     PRIMARY KEY (id),
-    FOREIGN KEY (fk_product_id) REFERENCES product (id),        -- ON UPDATE CASCADE ON DELETE CASCADE,
-    FOREIGN KEY (fk_order_entry_id) REFERENCES order_entry (id) -- ON UPDATE CASCADE ON DELETE CASCADE
+    FOREIGN KEY (fk_product_id) REFERENCES product (id) ON UPDATE CASCADE ON DELETE CASCADE,
+    FOREIGN KEY (fk_order_entry_id) REFERENCES order_entry (id) ON UPDATE CASCADE ON DELETE CASCADE
 );

@@ -1,24 +1,24 @@
-USE pizza_express_zli_example;
+USE pizza_express_solution;
 
--- Produkte die mehr kosten als der Durchschnitt
+-- 1. Produkte die mehr kosten als der Durchschnitt
 SELECT p.name,
        p.price
 FROM product p
 WHERE p.price > (SELECT AVG(price) FROM product);
 
--- Produkte die weniger kosten als der Durchschnitt
+-- 2. Produkte die weniger kosten als der Durchschnitt
 SELECT p.name,
        p.price
 FROM product p
 WHERE p.price < (SELECT AVG(price) FROM product);
 
--- Bezeichnung und Preis des teuersten Produktes
+-- 3. Bezeichnung und Preis des teuersten Produktes
 SELECT p.name,
        p.price
 FROM product p
 WHERE p.price = (SELECT MAX(price) FROM product);
 
--- Durchschnittliche Anzahl der Bestellungen pro Kunde
+-- 4. Durchschnittliche Anzahl der Bestellungen pro Kunde
 SELECT AVG(orders)
 FROM (SELECT COUNT(o.id) AS orders
       FROM customer c
