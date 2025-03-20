@@ -9,4 +9,4 @@ USE sakila;
 -- 7. Umsatz des Unternehmens (Payments) mit Filmen, die als "NC-17" geratet wurden
 -- 8. Tammy Sanders aus Changhwa hat alle Filme zurückgebracht. Erfassen Sie alle notwendigen Änderungen in der Datenbank
 -- 9. Entfernen Sie alle Filme, in welchen "Dan Torn" mitspielt, aus der Kategorie Drama
--- 10.  Titel der Filme mit der längsten Spieldauer
+-- 10. Titel der Filme mit der längsten Spieldauer

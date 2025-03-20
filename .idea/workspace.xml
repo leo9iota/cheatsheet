@@ -5,21 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be692c59-277c-4a01-a0ae-af2db0279f55" name="Changes" comment="Update `4.1`">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/92afe143-68dc-44d4-9246-1fe3152606ce.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/92afe143-68dc-44d4-9246-1fe3152606ce.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/m106/solutions/2.4_solution_CREATE.sql" beforeDir="false" afterPath="$PROJECT_DIR$/m106/solutions/2.4_solution_CREATE.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/m106/solutions/2.5_solution_ALTER.sql" beforeDir="false" afterPath="$PROJECT_DIR$/m106/solutions/2.5_solution_ALTER.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/m106/solutions/3.2_solution_INSERT.sql" beforeDir="false" afterPath="$PROJECT_DIR$/m106/solutions/3.2_solution_INSERT.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/m106/solutions/3.4_solution_UPDATE.sql" beforeDir="false" afterPath="$PROJECT_DIR$/m106/solutions/3.4_solution_UPDATE.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/m106/solutions/3.5_solution_DELETE.sql" beforeDir="false" afterPath="$PROJECT_DIR$/m106/solutions/3.5_solution_DELETE.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/m106/solutions/3.7_solution_USER_MANAGEMENT.sql" beforeDir="false" afterPath="$PROJECT_DIR$/m106/solutions/3.7_solution_USER_MANAGEMENT.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m106/block-8/8.1_complex_sql_queries.sql" beforeDir="false" afterPath="$PROJECT_DIR$/m106/block-8/8.1_complex_sql_queries.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/m106/solutions/5.2_solution_SQL-Statements.sql" beforeDir="false" afterPath="$PROJECT_DIR$/m106/solutions/5.2_solution_SQL-Statements.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/m106/solutions/7.1_solution_GROUP_BY.sql" beforeDir="false" afterPath="$PROJECT_DIR$/m106/solutions/7.1_solution_GROUP_BY.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/m106/solutions/7.2_solution_JOIN.sql" beforeDir="false" afterPath="$PROJECT_DIR$/m106/solutions/7.2_solution_JOIN.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/m106/solutions/7.3_solution_OUTER_JOIN.sql" beforeDir="false" afterPath="$PROJECT_DIR$/m106/solutions/7.3_solution_OUTER_JOIN.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/m106/solutions/7.4_solution_SUBQUERIES.sql" beforeDir="false" afterPath="$PROJECT_DIR$/m106/solutions/7.4_solution_SUBQUERIES.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

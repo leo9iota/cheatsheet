@@ -19,7 +19,7 @@ SELECT AVG(length)
 FROM film
 WHERE rating = 'PG';
 
--- Ausleihen, die noch nicht zurück gebracht wurden, sortiert nach Ausleihdatum
+-- Ausleihen, die noch nicht zurückgebracht wurden, sortiert nach Ausleihdatum
 SELECT rental_id,
        DATE_FORMAT(rental_date, "%d.%m.%y") ausleihdatum
 FROM rental
