@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be692c59-277c-4a01-a0ae-af2db0279f55" name="Changes" comment="Update `4.1`">
-      <change afterPath="$PROJECT_DIR$/m106/block-7/7.1_group_by.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/m106/block-7/7.2_join.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/m106/block-7/7.3_outer_joins.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/m106/block-7/7.4_subqueries.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/m106/block-7/test.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m106/block-8/8.1_complex_sql_queries.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m106/block-8/8.2_difficult_sql_queries.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +38,7 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/Nine/Projects/zli-m106",
-    "settings.editor.selected.configurable": "preferences.keymap"
+    "settings.editor.selected.configurable": "settings.sync"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
