@@ -1,8 +1,3 @@
-# ZLI
+# Docs
 
-This repository is meant as reference and cheatsheet for modules at ZLI.
-
-## M106
-
-Database module
-
+Documentation for my projects written in MDX
